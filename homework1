@@ -1,0 +1,27 @@
+1) pwd
+2) mkdir dz1
+3) cd dz1
+4) mkdir -p {app1,app2,app3}
+5) cd app1
+6) touch / {1.txt,2.txt,3.txt,1.json,2.json}
+7) mkdir -p {app4,app5,app6}
+8) ls -f
+9) vim 1.txt
+10) i (insert) 123qwerty
+11) esc :wq
+12) cd ..
+13) cd app1
+    mv 2.txt app4/2.txt
+    mv 1.txt app4/1.txt
+14) cp 1.json app5/1.json
+    cp 2.json app5/2.json
+15) find -name 3.txt
+16) cd app4
+    grep 123 1.txt
+17) head -2 1.txt
+18) tail -2 1.txt
+19) less 1.txt
+20) date
+
+
+
